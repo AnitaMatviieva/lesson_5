@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300;400&display=swap');
+
+@font-face {
+	font-family: "ZnikomitNo24" ;
+	src: url("../fonts/ZnikomitNo24.woff2") format("woff2"), url("../fonts/ZnikomitNo24.woff") format("woff");
+	font-display: swap;
+	font-weight: 500 ;
+	font-style: normal;
+}
+
+/* Вкладиність селекторів */
+
+.relax p{
+	color: brown;
+	text-indent: 5%;
+}
+
+.monotony > p{
+text-shadow: 1px 1px 5px cornflowerblue;
+margin: 4px 1px 4px 2px;
+}
+
+.delirious ~ p{
+text-decoration: line-through cornflowerblue;
+}
+
+.light + p{
+	text-decoration: overline;
+}
+
+/*  Приорітетність селекторів */
+
+
+h1{
+	text-align: right;
+}
+
+h1 {
+	text-align: center;
+	color: darkcyan;
+	letter-spacing: 4px;
+	padding: 15px;
+	font-family: "ZnikomitNo24", sans-serif;
+	font-size: 28px;
+	font-style: oblique;
+	font-weight: 500;
+}
+
+#first-title {
+	text-align: left;
+}
+
+.title{
+	text-align: right ;
+}
+
+/* Більш приорітетний .text-top чим просто p
+.text-top{
+color: #66FFFF;
+}
+
+p {
+color:#9933FF ;
+}
+*/
+
+p.text-one{
+	color:darkgreen;
+}
+
+.text-one{
+	color: aqua;
+}
+
+.text.two {
+	color: blueviolet;
+}
+
+p.text{
+	color: aquamarine;
+}
+
+/* ------------------------------ */
+.advices{
+	text-align: right;
+	background-color: rgba(255, 0, 255, 0.3);
+	padding: 5px 0px 5px 500px;
+	
+}
+
+
+.list {
+	text-decoration: underline;
+	color:darkgoldenrod;
+	text-transform: lowercase;
+	
+}
+
+h2, h3{
+	text-transform: uppercase;
+	text-align: justify;
+	margin: 12px 2px 12px 2px;
+	color: cornflowerblue;
+	font-family: "Oswald", monospace ;
+	font-size: 14px;
+	font-style: italic;
+	font-weight: 400;
+
+	
+}
+
+
+.machinery{
+	background-color: hotpink;
+	padding: 5px 10px 5px 20px ;
+}
+
+img{
+	width: 200px ;
+}
+
+body{
+	word-spacing: 10px;
+}
+
+.font{
+	font-family: "Oswald", serif;
+		font-size: 14px;
+		font-style: normal;
+		font-weight: 300;
+		text-transform: capitalize;
+}
+
+.line{
+	line-height: 1.5;
+}
+
+.time{
+	padding: 5px 10px 5px 50px ;
+	white-space: nowrap;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
